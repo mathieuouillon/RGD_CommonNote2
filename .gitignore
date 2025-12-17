@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+# LaTeX intermediate files
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+# LaTeX generated PDF
+*.pdf
+# Backup files
+*~.bak
+*.backup
+# Temporary files
+*.tmp
