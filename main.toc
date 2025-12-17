@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Particle identification and fiducial cuts}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Electron identification}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Electron fiducial cuts}{9}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Calorimeters fiducial cuts}{9}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}DC fiducial cuts}{10}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Summary}{14}{section.2}%
+\contentsline {section}{\numberline {A}Sector Parameters}{16}{appendix.A}%
+\contentsline {section}{\numberline {B}Number of photo-electrons in HTCC}{17}{appendix.B}%
+\contentsline {section}{\numberline {C}Sampling fraction versus momentum}{17}{appendix.C}%
+\contentsline {section}{\numberline {D}Calorimeter fiducial cuts}{17}{appendix.D}%
