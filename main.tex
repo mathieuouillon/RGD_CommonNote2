@@ -218,11 +218,21 @@ Vertex cuts are applied to ensure that selected electron tracks originate from t
 
 The $V_z$ distribution for electron candidate tracks in outbending polarity is shown in \cref{fig:Vz-electron-CxC} for the three targets: LD2, CxC, and CuSn. The cuts were developed by fitting the $V_z$ distributions for the CxC and CuSn targets with two double-sided Crystal Ball (DSCB) functions for the main target peaks and two additional DSCB functions for the peaks corresponding to the empty LD2 cell walls.
 
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.5\textwidth]{images/electron/Vz_CxC_OB.pdf}
-\caption{$V_z$ distribution for electrons in outbending polarity for the CxC target, showing the total fit and individual components.}
-\label{fig:Vz-electron-CxC}
+\begin{figure}[hbt]
+  \centering
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/electron/vz_e_CxC_OB_fit.pdf}
+    \caption{a}
+  \end{subfigure}
+  \hfill
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/electron/vz_e_CxC_OB_fit.pdf}
+    \caption{b}
+  \end{subfigure}
+  \caption{$V_z$ distribution for electrons in outbending polarity for the CxC (a) and CuSn (b) targets, showing the total fit and individual components.}
+  \label{fig:ECAL-fiducial-cut}
 \end{figure}
 
 For the solid targets, the vertex cut ranges are defined as $\mu \pm 3\sigma$ of the main peak for each target, where $\mu$ is the mean and $\sigma$ is the standard deviation. The exception is the upper limit for CxC and Sn, which is set to 5~cm because the next peak corresponds to the scattering chamber windows, which are sufficiently far from the target region to avoid contamination. For the LD2 target, the lower limit is set to $-15$~cm to include the full target length, and the upper limit is set to 5~cm to avoid contamination from the scattering chamber windows. The resulting vertex cuts for each target in outbending polarity are summarized in \cref{tab:Vz-cuts}.
@@ -277,7 +287,7 @@ The comparison of the profile of the 2D distribution SF vs $v$ or $w$ for electr
 
 \begin{figure}[hbt]
   \centering
-  \includegraphics[width=0.7\textwidth]{images/electron/plots_calorimeter_fiducials/target_comparison/lv_vs_sf_S1_target_comparison.pdf}
+  \includegraphics[width=0.5\textwidth]{images/electron/plots_calorimeter_fiducials/target_comparison/lv_vs_sf_S1_target_comparison.pdf}
   \caption{Comparison of the profile of the 2D distribution SF vs $v$ or $w$ for electron candidate tracks in outbending polarity for the three targets: LD2, CxC and CuSn.}
   \label{fig:ECAL-fiducial-cut-comp-target}
 \end{figure}
