@@ -22,8 +22,8 @@
 *.snm
 *.vrb
 *.xdv
-# LaTeX generated PDF
-*.pdf
+# LaTeX output files
+main.pdf
 # Backup files
 *~.bak
 *.backup
