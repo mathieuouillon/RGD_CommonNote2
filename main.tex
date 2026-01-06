@@ -517,6 +517,62 @@ The survival rates after each cut for the different targets are summarized in \c
 \caption{Electron survival rates for different targets}
 \end{table}
 
+
+\section{Pion cuts}
+Pion identification and selection are necessery for the color transparancy study and the nuclear TMDs analysis in RG-D. The pion selection is done by applying cuts on the reconstructed mass of the particle, calculated using the time-of-flight information from the time-of-flight detectors and the momentum from the drift chambers.
+
+The fiducial cuts for the drift chambers and the calorimeter will be descripted in the next subsections.
+
+\subsection{DC fiducial cuts}
+The same methodology as for the electron DC fiducial cuts is applied for the pion candidate tracks. The resulting profiles for each sector for regions 1, 2, and 3 are shown for the sector average in \cref{fig:DC-fiducial-cut-pion-LD2}, \cref{fig:DC-fiducial-cut-pion-CxC}, and \cref{fig:DC-fiducial-cut-pion-CuSn}, respectively, for the LD2 target.
+
+For $\pi^-$, the optimal cut positions are 2.125~cm, 3.625~cm, and 9.625~cm for regions 1, 2, and 3, respectively. For $\pi^+$, the cut positions are 3.875~cm, 4.375~cm, and 2.625~cm for regions 1, 2, and 3, respectively.
+
+
+\begin{figure}[hbt]
+  \centering
+  \begin{subfigure}[b]{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/pions/LD2_OB/pion_charge_comparison.pdf}
+    \caption{LD2}
+    \label{fig:DC-fiducial-cut-pion-LD2}
+  \end{subfigure}
+  \vfill
+  \begin{subfigure}[b]{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/pions/CxC_OB/pion_charge_comparison.pdf}
+    \caption{CxC}
+    \label{fig:DC-fiducial-cut-pion-CxC}
+  \end{subfigure}
+  \vfill
+  \begin{subfigure}[b]{\textwidth}
+    \centering
+    \includegraphics[width=\textwidth]{images/pions/CuSn_OB/pion_charge_comparison.pdf}
+    \caption{CuSn}
+    \label{fig:DC-fiducial-cut-pion-CuSn}
+  \end{subfigure}
+  \caption{DC fiducial cuts for pion candidate tracks in outbending polarity for the three targets (sector average).}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{PCal fiducial cuts}
+The PCal fiducial cuts for pions are applied to remove tracks that are close to the edges of the calorimeter, where the reconstruction efficiency is lower. The cuts are based on the local coordinates $l_v$ and $l_w$ of the track in the PCal. The distributions of the sampling fraction as a function of $l_v$ and $l_w$ are shown in \cref{fig:PCal-fiducial-cut-pion-lv} and \cref{fig:PCal-fiducial-cut-pion-lw}, respectively. The fiducial cuts are $l_v > 14$~cm and $l_w > 14$~cm.
+
+\begin{figure}[hbt]
+  \centering
+  \includegraphics[width=0.7\textwidth]{images/pions/lv_vs_sf_LD2_particles.pdf}
+  \caption{Sampling fraction as a function of $l_v$ for pion candidates in the LD2 target.}
+  \label{fig:PCal-fiducial-cut-pion-lv}
+\end{figure}
+
+\begin{figure}[hbt]
+  \centering
+  \includegraphics[width=0.7\textwidth]{images/pions/lw_vs_sf_LD2_particles.pdf}
+  \caption{Sampling fraction as a function of $l_w$ for pion candidates in the LD2 target.}
+  \label{fig:PCal-fiducial-cut-pion-lw}
+\end{figure}
+
 \FloatBarrier
 \newpage
 \clearpage

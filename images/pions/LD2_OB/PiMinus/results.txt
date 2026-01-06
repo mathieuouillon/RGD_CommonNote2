@@ -1,0 +1,12 @@
+Fiducial Cut Analysis Results
+==================================================
+
+Region: 1 (all sectors)
+  Cut Position: 2.125 cm
+
+Region: 2 (all sectors)
+  Cut Position: 3.625 cm
+
+Region: 3 (all sectors)
+  Cut Position: 9.625 cm
+
